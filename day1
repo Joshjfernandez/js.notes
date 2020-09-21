@@ -1,0 +1,62 @@
+var a = 10;
+var b = 3;
+
+var sum = a + b ; 
+
+console.log(sum);
+
+var name = "Joshua";
+console.log(name)
+var lastname = "Fernandez"
+var fullname = name + " " + lastname
+console.log(fullname)
+
+var hungry = true;
+console.log(hungry);
+
+if (hungry== true){
+  console.log("Let's have dinner");
+}
+else {
+  console.log("Let's wait another 15 minutes")
+}
+
+var number = 22;
+
+if (number % 2 == 1){
+  console.log(number +" is an odd number");
+}
+else {
+  console.log(number +" is an even number");
+}
+  var age = 40;
+  var price = 100;
+  
+  if (age < 19){
+    console.log("Ticket price is "+price*0.5);
+  }
+  else if (age < 41){
+    console.log("Ticket price is" +price);
+  }
+  else if (age < 66){
+    console.log("Ticket price is" +price*0.75);
+  }
+  else {
+    console.log("Ticket price is" +price*0.5);
+  }
+
+for (var i = 0; i < 10; i++){
+  console.log(i);
+}
+
+for (var i = 10; i > 0; i--){
+  console.log(i);
+}
+
+var multiplier = 5;
+var lines = 20;
+
+for (var i = 1; i < lines+1; i ++){
+  console.log(i + " x " +multiplier+ " = " + i *multiplier);
+}
+  
